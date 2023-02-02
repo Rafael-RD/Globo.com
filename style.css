@@ -1,0 +1,154 @@
+body{
+    font-family: 'Encode Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+
+}
+h1{
+    color: #c4160c;
+    font-weight: bold;
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+h2{
+    font-weight: 500;
+    font-size: 14px;
+}
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    color: #2f3134;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f3134;
+}
+.container-principal img{
+    border-radius: 12px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.container-menu-superior{
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+    display: flex;
+    justify-content: center;
+}
+.menu-superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: inherit 10px;
+    width: 1250px;
+    grid-template-rows: auto;
+}
+
+
+.menu-superior a{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+.container-principal{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    align-self: center;
+}
+.container-esquerdo{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+}
+
+.subtitulo-manchete{
+    color: #303134;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.container-noticias-horizontais{
+    display: flex;
+}
+.noticias-horizontais{
+    display: flex;
+    flex-direction: column;
+    width: 195px;
+    border-top: 1px solid #EBEDEF;
+    padding-top: 15px;
+}
+.img-horizontal{
+    width: 193px;
+    height: 110px;
+    margin: 1px;
+}
+.container-direito{
+    display: flex;
+    justify-content: space-between;
+    width: 610px;
+    border-left: 1px solid #EBEDEF;
+}
+.container-noticias-verticais{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+.noticias-verticais{
+    display: flex;
+    flex-direction: column;
+    width: 242px;
+}
+.img-vertical{
+    width: 240px;
+    height: 128px;
+    margin: 1px;
+}
+.borda{
+    border-left:1px solid #EBEDEF;
+}
+.cor-categoria-horizontais{
+    color: #c4170c;
+}
+.cor-categoria-verticais-esquerda{
+    color: #16ae54;
+}
+.cor-categoria-verticais-direita{
+    color: #ec8006;
+}
+.g1{
+    color: #C3170C;
+}
+.o-globo{
+    color: #1E4B9B;
+}
+.valor{
+    color: #006766;
+}
+.ge{
+    color: #07AA47;
+}
+.cartola{
+    color: #E3662B;
+}
+.globoplay{
+    color: #FB0735;
+}
+.dropz{
+    color: #FF75BB;
+}
+.gshow{
+    color: #EC7D00;
+}
+.quem{
+    color: #323333;
+}
+.receitas{
+    color: #A81D83;
+}
